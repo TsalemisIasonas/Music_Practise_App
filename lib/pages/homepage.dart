@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:music_app/constants/colors.dart';
 import 'package:music_app/util/category.dart';
+import 'package:music_app/pages/solocategoriespage.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -11,18 +12,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
-
-  void categorytrigger() {
-    maincolor = Colors.yellow;
-    setState(() {
-      
-    });
-    // Add your logic for handling the category press here
+  void categoryTrigger(String category) {
+    // Navigate to SoloCategoriesPage
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => SoloCategoriesPage(category)),
+    );
   }
 
   @override
@@ -41,12 +36,12 @@ class _HomePageState extends State<HomePage> {
           scrollDirection: Axis.horizontal,
           children: [
             Padding(
-              padding: EdgeInsets.fromLTRB(50.0, 30.0, 50.0, 30.0),
-              child: Category("Category 1", Colors.deepOrangeAccent, categorytrigger),
+              padding: const EdgeInsets.fromLTRB(50.0, 30.0, 50.0, 30.0),
+              child: Category("Category 1", Colors.deepOrangeAccent, categoryTrigger),
             ),
             Padding(
-              padding: EdgeInsets.fromLTRB(50.0, 30.0, 50.0, 30.0),
-              child: Category("Category 2", Colors.green, categorytrigger),
+              padding: const EdgeInsets.fromLTRB(50.0, 30.0, 50.0, 30.0),
+              child: Category("Category 2", Colors.green, categoryTrigger),
             ),
           ],
         ),

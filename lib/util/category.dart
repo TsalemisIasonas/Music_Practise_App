@@ -4,16 +4,16 @@ import 'package:music_app/constants/colors.dart';
 class Category extends StatelessWidget {
   final String category;
   final Color choiceColor;
-  final VoidCallback categorytrigger;
+  final void Function(String) onTap;
 
-  const Category(this.category, this.choiceColor, this.categorytrigger, {Key? key}) : super(key: key);
+  const Category(this.category, this.choiceColor, this.onTap, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     Size screenSize = MediaQuery.of(context).size;
     return Center(
       child: TextButton(
-        onPressed: categorytrigger,
+        onPressed: ()=>onTap(category),
         style: TextButton.styleFrom(
           foregroundColor: choiceColor,
           backgroundColor: maincolor,

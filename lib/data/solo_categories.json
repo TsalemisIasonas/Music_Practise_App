@@ -1,0 +1,63 @@
+{
+    "FILTHY":
+    {
+        "Bending" : ["Dino Bends","Fillthy Bends","Unibends - Doin'Time","Unibends - Slow, Modulated, Vibrated",
+                    "Afraid of Pain Bends","Double String Bends","Walk Ending","Tornado Bends","Noisy Bends",
+                    "Pre Bends","Hendrix Bends","Major Seventh Bend to Root - end of Phrase", "Bend - Pinch Harmonic When Release",
+                    "Bend - Tap Harmonic - Dive"],
+        "Rocky" : ["Nightrain Chord Style Licks", "Double Stops", "Pentatonic Extentions","Palm Mute for Effect",
+                        "Wah Pick Slide"],
+        "Zakk and Dimebag" : ["Zakk Judjement Repeating, Running","Zakk Judjement Repeating, Static","Zakk Classic",
+                                "Dime Major - minor 3rd Stretch","Finish on Pinch Harmonic","Walk Double Stop"],      
+        "Whammy Bar And Finale" : ["Big Notes Lizard Whammy","Symphony of Destruction Finale","This Love Finale"],
+        "Tricks" : ["Auto Flanging"]
+    },
+
+    "SHRED":
+    {
+        "Arpeggios" : ["Adrian Arpeggio","Tornado Repeating Arpeggio","Mr Crowely Arpeggio Inversions","Diagnal Arpeggios"],
+        "Sweeps" : ["The Stage Style Sweeps","5 String Sweep Arpeggio","Sweep Pedal Point",
+            "3 String Sweep mid Running","Sweep and Tap","Buried Alive Sweeps"],
+        "Tapping" : ["Judgement Tapping","One Tapping","Paschendale Tapping","Pick Tapping","Diagnal Tapping",
+                "Tap on Same Fret","Scuicide Messiah Tapping","Tap Scale Against Scale"],
+        "Bend & Tap" : ["Bend and Tap - Jeff Loomis","Bend and Tap - EVH", "Bend and Tap - Randy"],
+        "Packs" : ["Becker Meets Gus", "Jake E Lee Does Walk", "Adrian Meets Loomis", "EVH - Repeat Phrase, Getting Denser", "Hirajoshi Two Strings"],
+        "Yngwie Malmsteen" : ["YJM - Pedal Point", "Slash Pedal Point", "YJM - Run and Stay on Trill", "YJM - Rising Force Descending Triplets", 
+                                "YJM - Hit Harmonic, pick the same note an 8th note later"],
+        "Runs" : ["Triplets Legato", "Afraid of Pain Runs", "Hirajoshi Run", "Creeping Death Triplets", "Master of Puppets Triplets","Bark at the Moon Runs",
+                    "Harmonic Minor Cheat Code Runs", "Sixteenth Picked, Full Neck", "Sixteenth Picked, Half Neck", "Syn Pentatonic Runs, Switch Position",
+                    "Pentatonic Stretch Runs - Switch Position, Joel", "Chris Broderick 1 2 3 Symmetric", "Horizontal Modal Ascend", "Scream Sevenfold Runs"],
+        "Dimebag Darrell" : ["Dime Circular Motifs", "Dime Double Pull Offs", "Dime SRV Bends", "Descend on One String (with Dive)"],
+        "Iron Maiden" : ["Trills Running", "Left Hand Tap - One String", "Reverse Scale", "Run, Slide to Ending Note, Trem Pick That Note, Descend Scale (on one string)"],
+        "Vanished Solos" : ["Run and Tap", "Gliding Harmonics", "Hendrix Blues Run"]
+    },
+
+    "SINISTER":
+    {
+        "Synyster Gates" : ["Syn - Use of b5","Syn - Finish A Semitone Lower","Syn - Buried Alive Chromatic"],
+        "Diminished" : ["Slow Diminished Scale","Diminished Multiple Notes","Diminished Arpeggio Run"]
+    },
+    
+    "MELODY":
+    {
+        "Start Phrase" : ["Start Similar to Previous Riff","Levare","Big Dive on Low, Bend to Root",
+                            "Start on Fourth, First, Thrid","Start Next Phrase Landing on Fifth",
+                        "Start with Short Harmonic","Sweep to Get to Note","Play Vocal Line as a Solo, Twisted",
+                        "Start On Last Vocal Note", "Call and Response"],
+        "John Petrucci" : ["Metropolis I Socrates", "I Socrates, Same Note, Different String", "Petrucci - Another Day","Petrucci - Play Note and Add Third",
+                            "Pedal Point - Petrucci and Becker","Same Melodic Pattern a Step Lower", "Same Theme, Another Octave",
+                            "Same Theme, Another Third","Another Day - Comfortambly Numb End Phrase","Add Minor Ninth Arpeggio - Petrucci",
+                            "Add Minor Ninth Arpeggio - Vai"],
+        "Exotic" : ["Bend and Tap - YJM", "Hirajoshi Descend Over Minor Chord","Tornado Arpeggio, Switch Position","Instead Of Note, Bend Previous Fret",
+                    "Add Harmonic Minor or Exotic Scale","Marty Friedman dominant flat nine arpeggios"],
+        "Finish Phrase" : ["Finish Melody With Octave", "Climax","I Ain't No Nice Guy Finale"],
+        "David Gilmour" : ["Dead Note Sweep And Slide", "Time Solo Major Ninth Slide"],
+        "Colors" : ["Octaves", "Dimebag Stakato", "Violin Imitation", "Descend on G String, Add Note on A String",
+                    "For the Love of God Double Stops","Slash, Patience, The Lick","Slash, Anastasia Closing Bend",
+                    "Slash, Rocket Man quick sharp bending lick"]
+    }
+
+
+
+
+}
