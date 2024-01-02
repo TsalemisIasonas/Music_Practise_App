@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: backgroundColor,
         elevation: 0.5,
-        shadowColor: Colors.red,
+        shadowColor: Colors.white,
         centerTitle: true,
         title: const Text("Music Practice App"),
       ),

@@ -14,6 +14,7 @@ class _SoloCategoriesPageState extends State<SoloCategoriesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: backgroundColor,
       appBar: AppBar(title: Text(widget.category), backgroundColor: backgroundColor,),
     );
   }
