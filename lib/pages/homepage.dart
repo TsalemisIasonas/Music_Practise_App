@@ -11,7 +11,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   void categoryTrigger(String category) {
     // Navigate to SoloCategoriesPage
     Navigator.push(
@@ -32,12 +31,14 @@ class _HomePageState extends State<HomePage> {
         title: const Text("Music Practice App"),
       ),
       body: Center(
-        child: ListView(
-          scrollDirection: Axis.horizontal,
+          child: SingleChildScrollView(         // if the content changes, use this instead of listview
+        scrollDirection: Axis.horizontal,
+        child: Row(
           children: [
             Padding(
               padding: const EdgeInsets.fromLTRB(50.0, 30.0, 50.0, 30.0),
-              child: Category("Category 1", Colors.deepOrangeAccent, categoryTrigger),
+              child: Category(
+                  "Category 1", Colors.deepOrangeAccent, categoryTrigger),
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(50.0, 30.0, 50.0, 30.0),
@@ -45,7 +46,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         ),
-      ),
+      )),
     );
   }
 }
